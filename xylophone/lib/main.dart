@@ -26,7 +26,7 @@ class XylophoneApp extends StatelessWidget {
               Expanded(
                 child: TextButton(
                   style: ButtonStyle(
-                      backgroundColor: MaterialStateProperty.all(Colors.red)),
+                      backgroundColor: MaterialStateProperty.all(Colors.blue)),
                   onPressed: () {
                     playSound(1);
                   },
@@ -39,12 +39,25 @@ class XylophoneApp extends StatelessWidget {
               Expanded(
                 child: TextButton(
                   style: ButtonStyle(
-                      backgroundColor: MaterialStateProperty.all(Colors.teal)),
+                      backgroundColor: MaterialStateProperty.all(Colors.green)),
+                  onPressed: () {
+                    playSound(1);
+                  },
+                  child: Text(
+                    'SA',
+                    style: TextStyle(color: Colors.white),
+                  ),
+                ),
+              ),
+              Expanded(
+                child: TextButton(
+                  style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all(Colors.yellow)),
                   onPressed: () {
                     playSound(2);
                   },
                   child: Text(
-                    'RE',
+                    'SA',
                     style: TextStyle(color: Colors.white),
                   ),
                 ),
@@ -52,13 +65,12 @@ class XylophoneApp extends StatelessWidget {
               Expanded(
                 child: TextButton(
                   style: ButtonStyle(
-                      backgroundColor:
-                          MaterialStateProperty.all(Colors.indigo)),
+                      backgroundColor: MaterialStateProperty.all(Colors.orange)),
                   onPressed: () {
                     playSound(3);
                   },
                   child: Text(
-                    'GA',
+                    'SA',
                     style: TextStyle(color: Colors.white),
                   ),
                 ),
@@ -66,13 +78,12 @@ class XylophoneApp extends StatelessWidget {
               Expanded(
                 child: TextButton(
                   style: ButtonStyle(
-                      backgroundColor:
-                          MaterialStateProperty.all(Colors.lime)),
+                      backgroundColor: MaterialStateProperty.all(Colors.red)),
                   onPressed: () {
                     playSound(4);
                   },
                   child: Text(
-                    'MA',
+                    'SA',
                     style: TextStyle(color: Colors.white),
                   ),
                 ),
@@ -80,12 +91,12 @@ class XylophoneApp extends StatelessWidget {
               Expanded(
                 child: TextButton(
                   style: ButtonStyle(
-                      backgroundColor: MaterialStateProperty.all(Colors.green)),
+                      backgroundColor: MaterialStateProperty.all(Colors.cyan)),
                   onPressed: () {
                     playSound(5);
                   },
                   child: Text(
-                    'PA',
+                    'SA',
                     style: TextStyle(color: Colors.white),
                   ),
                 ),
@@ -93,8 +104,7 @@ class XylophoneApp extends StatelessWidget {
               Expanded(
                 child: TextButton(
                   style: ButtonStyle(
-                      backgroundColor:
-                          MaterialStateProperty.all(Colors.yellow)),
+                      backgroundColor: MaterialStateProperty.all(Colors.purple)),
                   onPressed: () {
                     playSound(6);
                   },
@@ -107,7 +117,7 @@ class XylophoneApp extends StatelessWidget {
               Expanded(
                 child: TextButton(
                   style: ButtonStyle(
-                      backgroundColor: MaterialStateProperty.all(Colors.blue)),
+                      backgroundColor: MaterialStateProperty.all(Colors.blueGrey)),
                   onPressed: () {
                     playSound(7);
                   },
